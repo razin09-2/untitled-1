@@ -1,0 +1,66 @@
+{
+    "name": "Untitled 1",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.2.1",
+        "animation": "*",
+        "multiplayer": "*",
+        "controller": "*",
+        "edge-connector": "*",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.2",
+        "color-coded-tilemap": "*",
+        "sprite-scaling": "*",
+        "servo": "*",
+        "corgio": "*",
+        "sevenseg": "*",
+        "jacdac": "github:microsoft/pxt-jacdac#v1.9.13",
+        "jacdac-codal-message-bus": "github:microsoft/pxt-jacdac/codal-message-bus",
+        "jacdac-button": "github:microsoft/pxt-jacdac/button",
+        "jacdac-accelerometer": "github:microsoft/pxt-jacdac/accelerometer"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "main.py",
+        "images.g.jres",
+        "images.g.ts",
+        "jacdac.json",
+        "jacdac.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.12.32",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj",
+    "palette": [
+        "#000000",
+        "#FFFFFF",
+        "#FF2121",
+        "#FF93C4",
+        "#FF8135",
+        "#FFF609",
+        "#249CA3",
+        "#78DC52",
+        "#003FAD",
+        "#87F2FF",
+        "#8E2EC4",
+        "#A4839F",
+        "#5C406c",
+        "#E5CDC4",
+        "#91463d",
+        "#000000"
+    ]
+}
