@@ -1,5 +1,5 @@
 {
-    "name": "Untitled 1",
+    "name": "lop",
     "description": "",
     "dependencies": {
         "device": "*",
@@ -12,13 +12,10 @@
         "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24",
         "color-coded-tilemap": "*",
         "sprite-scaling": "*",
-        "jacdac": "github:microsoft/pxt-jacdac#v1.9.13",
-        "jacdac-codal-message-bus": "github:microsoft/pxt-jacdac/codal-message-bus",
-        "jacdac-button": "github:microsoft/pxt-jacdac/button",
-        "jacdac-accelerometer": "github:microsoft/pxt-jacdac/accelerometer",
         "Timers": "github:microsoft/arcade-timers#v1.1.0",
         "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
-        "arcade-background-scroll": "github:microsoft/arcade-background-scroll#6cfbf925b9a4d5ddf3e1078e6cf6ca6a1aebb301"
+        "arcade-background-scroll": "github:microsoft/arcade-background-scroll#6cfbf925b9a4d5ddf3e1078e6cf6ca6a1aebb301",
+        "pxt-raycasting": "github:aqeeaqee/pxt-raycasting#v0.3.18"
     },
     "files": [
         "main.blocks",
@@ -29,9 +26,7 @@
         "tilemap.g.ts",
         "main.py",
         "images.g.jres",
-        "images.g.ts",
-        "jacdac.json",
-        "jacdac.ts"
+        "images.g.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -43,7 +38,7 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "blocksprj",
+    "preferredEditor": "tsprj",
     "palette": [
         "#000000",
         "#FFFFFF",
